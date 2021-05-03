@@ -92,3 +92,28 @@ html, body {
     border-left: solid white 1px;
     margin-left: 50%;
 }
+
+.list-work {
+    text-transform: uppercase;
+    margin-left: 35%;
+}
+
+.intro{
+    border: solid white 1px;
+    padding: 20px;
+}
+
+.work {
+    border: solid white 1px;
+    padding: 20px;
+}
+
+.about {
+    border: solid white 1px;
+    padding: 20px;
+}
+
+.contact {
+    border: solid white 1px;
+    padding: 20px;
+}
