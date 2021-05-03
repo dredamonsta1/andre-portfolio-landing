@@ -74,3 +74,21 @@ html, body {
     margin-left: 35%;
 
 }
+
+.inner-paragraph {
+    text-transform: uppercase;
+    margin-left: 35%;
+    
+}
+
+.accrossline-bottom {
+    width: 400px;
+    border-bottom: solid white 1px;
+    margin-left: 35%;
+}
+
+.downline-bottom {
+    height: 100px;
+    border-left: solid white 1px;
+    margin-left: 50%;
+}
