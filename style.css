@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Istok+Web:wght@400;700&family=Lato:wght@100;300;400;700&family=Righteous&display=swap');
+
 :root {
     --background: black;
 }
@@ -33,6 +35,24 @@ html, body {
 }
 
 .circle {
+    /* font-family: 'Righteous',
+    cursive;
+    text-transform: uppercase; */
+
+    /* font-family: 'Hammersmith One',
+    sans-serif;
+    text-transform: uppercase; */
+
+    font-family: 'Istok Web',
+    sans-serif;
+    /* font-family: 'Lato',
+    sans-serif; */
+
+    text-transform: uppercase;
+
+
+
+
     height: 100px;
     width: 100px;
     margin-left: 46%;
