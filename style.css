@@ -1,0 +1,56 @@
+:root {
+    --background: black;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    height: 100%;
+    background-image: url('./image/IMG_5161.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.filter-shade {
+    height: 100%;
+    width: 100%;
+    color: black;
+    /* transform: translate(-50%, -50%); */
+    background: rgba(0, 0,0, 0.3);
+    opacity: 51.5;
+    z-index: 99;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 50px;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+
+.line-under-circle {
+    height: 100px;
+    border-left: solid white 1px;
+    margin-left: 50%;
+
+}
+
+.downline-top {
+    width: 400px;
+    border-top: solid white 1px;
+    margin-left: 35%;
+
+}
