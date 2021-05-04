@@ -106,13 +106,28 @@ html, body {
 
 li {
     list-style: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 0px;
 }
 .list-work {
+    display: table;
     text-transform: uppercase;
     margin-left: 35%;
     /* text-decoration: none; */
     font-family: 'Istok Web',
     sans-serif;
+    font-size: 12px;
+}
+
+ul.horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul.horizontal-list li {
+    display: inline;
 }
 
 .intro{
