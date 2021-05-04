@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+h1, p {
+    color: white;
+}
+
 html, body {
     height: 100%;
 }
@@ -78,6 +82,9 @@ html, body {
 .inner-paragraph {
     text-transform: uppercase;
     margin-left: 35%;
+    font-family: 'Istok Web',
+    sans-serif;
+    
     
 }
 
@@ -96,6 +103,9 @@ html, body {
 .list-work {
     text-transform: uppercase;
     margin-left: 35%;
+    /* text-decoration: none; */
+    font-family: 'Istok Web',
+    sans-serif;
 }
 
 .intro{
@@ -116,4 +126,12 @@ html, body {
 .contact {
     border: solid white 1px;
     padding: 20px;
+}
+
+.footer {
+    font-family: 'Istok Web',
+    sans-serif;
+    margin-top: 150px;
+    margin-left: 25%;
+    
 }
