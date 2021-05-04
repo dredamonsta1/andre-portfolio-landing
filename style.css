@@ -14,6 +14,10 @@ h1, p {
     color: white;
 }
 
+a {
+    color: white;
+}
+
 html, body {
     height: 100%;
 }
@@ -133,5 +137,6 @@ html, body {
     sans-serif;
     margin-top: 150px;
     margin-left: 25%;
+    color: white;
     
 }
