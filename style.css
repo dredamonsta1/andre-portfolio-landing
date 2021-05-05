@@ -23,6 +23,8 @@ html, body {
 }
 .container {
     display: flex;
+    justify-content: space-between;
+    position: relative;
     height: 100%;
     background-image: url('./image/yellow-mountains-532857_1280.jpg');
     background-repeat: no-repeat;
