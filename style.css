@@ -24,6 +24,7 @@ html, body {
 .container {
     display: flex;
     justify-content: space-between;
+    padding: 3rem 2rem;
     position: relative;
     height: 100%;
     background-image: url('./image/yellow-mountains-532857_1280.jpg');
@@ -37,11 +38,8 @@ html, body {
 .filter-shade {
     height: 100%;
     width: 100%;
-    color: black;
-    /* transform: translate(-50%, -50%); */
     background: rgba(0, 0,0, 0.3);
-    opacity: 51.5;
-    z-index: 99;
+
 }
 
 .circle {
