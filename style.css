@@ -22,10 +22,10 @@ html, body {
     height: 100%;
 }
 .container {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     padding: 3rem 2rem;
-    position: relative;
+    position: relative; */
     height: 100%;
     background-image: url('./image/yellow-mountains-532857_1280.jpg');
     background-repeat: no-repeat;
@@ -40,6 +40,14 @@ html, body {
     width: 100%;
     background: rgba(0, 0,0, 0.3);
 
+}
+
+.small-container {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    position: relative;
+    /* background-color: rgb(155, 12, 12); */
 }
 
 .circle {
