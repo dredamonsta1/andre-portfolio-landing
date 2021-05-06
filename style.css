@@ -85,27 +85,30 @@ html, body {
 
 }
 
-.downline-top {
+/* .downline-top {
     width: 400px;
     border-top: solid white 1px;
     margin-left: 35%;
 
-}
+} */
 
 .inner-paragraph {
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    padding: 48px 32px;
     text-transform: uppercase;
-    margin-left: 35%;
+    /* margin-left: 35%; */
     font-family: 'Istok Web',
     sans-serif;
     
     
 }
 
-.accrossline-bottom {
+/* .accrossline-bottom {
     width: 400px;
     border-bottom: solid white 1px;
     margin-left: 35%;
-}
+} */
 
 .downline-bottom {
     height: 100px;
