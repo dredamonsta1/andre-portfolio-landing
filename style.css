@@ -22,10 +22,10 @@ html, body {
     height: 100%;
 }
 .container {
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    padding: 3rem 2rem;
-    position: relative; */
+    /* padding: 3rem 2rem; */
+    position: relative;
     height: 100%;
     background-image: url('./image/yellow-mountains-532857_1280.jpg');
     background-repeat: no-repeat;
@@ -43,28 +43,21 @@ html, body {
 }
 
 .small-container {
+    display: flex;
+    flex-wrap: wrap;
     align-self: center;
     /* display: flex; */
     justify-content: space-between;
-    padding: 3rem 2rem;
+    /* margin: 50px 100px; */
+    padding: 2rem 1rem;
     position: relative;
-    /* background-color: rgb(155, 12, 12); */
 }
 
 .circle {
-    /* font-family: 'Righteous',
-    cursive;
-    text-transform: uppercase; */
-
-    /* font-family: 'Hammersmith One',
-    sans-serif;
-    text-transform: uppercase; */
-
+    display: flex;
+    align-self: center;
     font-family: 'Istok Web',
     sans-serif;
-    /* font-family: 'Lato',
-    sans-serif; */
-
     text-transform: uppercase;
 
 
@@ -85,14 +78,10 @@ html, body {
 
 }
 
-/* .downline-top {
-    width: 400px;
-    border-top: solid white 1px;
-    margin-left: 35%;
-
-} */
-
 .inner-paragraph {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
     border-top: solid white 1px;
     border-bottom: solid white 1px;
     padding: 48px 32px;
@@ -100,15 +89,9 @@ html, body {
     /* margin-left: 35%; */
     font-family: 'Istok Web',
     sans-serif;
-    
+    background-color: blueviolet;
     
 }
-
-/* .accrossline-bottom {
-    width: 400px;
-    border-bottom: solid white 1px;
-    margin-left: 35%;
-} */
 
 .downline-bottom {
     height: 100px;
