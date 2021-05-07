@@ -44,8 +44,9 @@ html, body {
 
 .small-container {
     display: flex;
-    flex-wrap: wrap;
-    align-self: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* align-self: center; */
     /* display: flex; */
     justify-content: space-between;
     /* margin: 50px 100px; */
@@ -65,8 +66,8 @@ html, body {
 
     height: 100px;
     width: 100px;
-    margin-left: 46%;
-    margin-top: 50px;
+    /* margin-left: 46%; */
+    /* margin-top: 50px; */
     border: solid white 1px;
     border-radius: 50%;
 }
