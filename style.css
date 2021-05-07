@@ -90,7 +90,7 @@ html, body {
     /* margin-left: 35%; */
     font-family: 'Istok Web',
     sans-serif;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     
 }
 
@@ -107,9 +107,11 @@ li {
     gap: 0px;
 }
 .list-work {
-    display: table;
+    display: flex;
+    /* display: table; */
     text-transform: uppercase;
-    margin-left: 35%;
+    align-self: center;
+    /* margin-left: 35%; */
     /* text-decoration: none; */
     font-family: 'Istok Web',
     sans-serif;
