@@ -114,11 +114,15 @@ html, body {
     margin-left: 50%;
 }
 
+ul {
+    display: flex;
+    
+}
+
 li {
     list-style: none;
     display: flex;
-    /* flex-wrap: wrap; */
-    
+    flex-wrap: wrap; 
     gap: 0px;
 }
 .list-work {
@@ -152,6 +156,7 @@ ul.horizontal-list li {
 .intro{
     border: solid var(--line) 1px;
     padding: 20px;
+    border-radius: 4px 0 0 4px;
 }
 
 .work {
@@ -167,6 +172,7 @@ ul.horizontal-list li {
 .contact {
     border: solid var(--line) 1px;
     padding: 20px;
+    border-radius: 0 4px 4px 0;
 }
 
 .footer {
