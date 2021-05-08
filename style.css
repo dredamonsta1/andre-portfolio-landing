@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Istok+Web:wght@400;700&family=Lato:wght@100;300;400;700&family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
 :root {
     --background: black;
     --line: white;
@@ -58,7 +60,9 @@ html, body {
 .circle {
     display: flex;
     align-self: center;
-    font-family: 'Istok Web',
+    /* font-family: 'Istok Web',
+    sans-serif; */
+    font-family: 'Nunito',
     sans-serif;
     text-transform: uppercase;
 
@@ -96,7 +100,9 @@ html, body {
     padding: 48px 32px;
     text-transform: uppercase;
     /* margin-left: 35%; */
-    font-family: 'Istok Web',
+    /* font-family: 'Istok Web',
+    sans-serif; */
+    font-family: 'Nunito',
     sans-serif;
     /* background-color: blueviolet; */
     
@@ -122,8 +128,11 @@ li {
     align-self: center;
     justify-content: space-evenly;
     /* text-decoration: none; */
-    font-family: 'Istok Web',
+    /* font-family: 'Istok Web',
+    sans-serif; */
+    font-family: 'Nunito',
     sans-serif;
+    font-weight: 200;
     font-size: 12px;
     
 }
@@ -162,8 +171,11 @@ ul.horizontal-list li {
 
 .footer {
     align-self: center;
-    font-family: 'Istok Web',
+    /* font-family: 'Istok Web',
+    sans-serif; */
+    font-family: 'Nunito',
     sans-serif;
+    font-weight: 200;
     margin-top: 50px;
     color: white;
     
