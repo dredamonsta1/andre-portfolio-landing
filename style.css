@@ -72,6 +72,13 @@ html, body {
     border-radius: 50%;
 }
 
+.aw-span {
+    display: flex;
+
+    align-self: center;
+    flex-grow: 4;
+}
+
 .line-under-circle {
     height: 100px;
     border-left: solid white 1px;
@@ -111,7 +118,7 @@ li {
     /* display: table; */
     text-transform: uppercase;
     align-self: center;
-    /* margin-left: 35%; */
+    justify-content: space-evenly;
     /* text-decoration: none; */
     font-family: 'Istok Web',
     sans-serif;
@@ -119,7 +126,7 @@ li {
 }
 
 ul.horizontal-list {
-    min-width: 696px;
+    /* min-width: 696px; */
     list-style: none;
     padding-top: 20px;
 }
@@ -149,10 +156,10 @@ ul.horizontal-list li {
 }
 
 .footer {
+    align-self: center;
     font-family: 'Istok Web',
     sans-serif;
     margin-top: 50px;
-    margin-left: 25%;
     color: white;
     
 }
