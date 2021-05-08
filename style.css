@@ -2,6 +2,7 @@
 
 :root {
     --background: black;
+    --line: white;
 }
 
 *, *::before, *::after {
@@ -68,7 +69,7 @@ html, body {
     width: 100px;
     /* margin-left: 46%; */
     /* margin-top: 50px; */
-    border: solid white 1px;
+    border: solid var(--line) 1px;
     border-radius: 50%;
 }
 
@@ -81,7 +82,7 @@ html, body {
 
 .line-under-circle {
     height: 100px;
-    border-left: solid white 1px;
+    border-left: solid var(--line) 1px;
     margin-left: 50%;
 
 }
@@ -90,8 +91,8 @@ html, body {
     justify-content: center;
     flex-wrap: wrap;
     align-self: center;
-    border-top: solid white 1px;
-    border-bottom: solid white 1px;
+    border-top: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
     padding: 48px 32px;
     text-transform: uppercase;
     /* margin-left: 35%; */
@@ -103,7 +104,7 @@ html, body {
 
 .downline-bottom {
     height: 100px;
-    border-left: solid white 1px;
+    border-left: solid var(--line) /* green*/ 1px;
     margin-left: 50%;
 }
 
@@ -111,6 +112,7 @@ li {
     list-style: none;
     display: flex;
     /* flex-wrap: wrap; */
+    
     gap: 0px;
 }
 .list-work {
@@ -123,35 +125,38 @@ li {
     font-family: 'Istok Web',
     sans-serif;
     font-size: 12px;
+    
 }
 
 ul.horizontal-list {
     /* min-width: 696px; */
     list-style: none;
     padding-top: 20px;
+    /* border-radius: 4px; */
 }
 
 ul.horizontal-list li {
     display: inline;
+    
 }
 
 .intro{
-    border: solid white 1px;
+    border: solid var(--line) 1px;
     padding: 20px;
 }
 
 .work {
-    border: solid white 1px;
+    border: solid var(--line) 1px;
     padding: 20px;
 }
 
 .about {
-    border: solid white 1px;
+    border: solid var(--line) 1px;
     padding: 20px;
 }
 
 .contact {
-    border: solid white 1px;
+    border: solid var(--line) 1px;
     padding: 20px;
 }
 
