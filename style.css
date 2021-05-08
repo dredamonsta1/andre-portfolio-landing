@@ -160,20 +160,27 @@ ul.horizontal-list li {
 }
 
 .work {
-    border: solid var(--line) 1px;
+    border-top: solid var(--line) 1px;
+    border-right: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
     padding: 20px;
 }
 
 .about {
-    border: solid var(--line) 1px;
+    border-top: solid var(--line) 1px;
+    border-right: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
     padding: 20px;
 }
 
 .contact {
-    border: solid var(--line) 1px;
+    border-top: solid var(--line) 1px;
+    border-right: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
     padding: 20px;
     border-radius: 0 4px 4px 0;
 }
+
 
 .footer {
     align-self: center;
