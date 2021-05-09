@@ -5,6 +5,7 @@
 :root {
     --background: black;
     --line: white;
+    --opaqe: rgb(112, 108, 108, .3);
 }
 
 *, *::before, *::after {
@@ -30,7 +31,7 @@ html, body {
     /* padding: 3rem 2rem; */
     position: relative;
     height: 100%;
-    background-image: url('./image/yellow-mountains-532857_1280.jpg');
+    background-image: url('./image/mountains-440520_1920.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -153,17 +154,22 @@ ul.horizontal-list li {
     
 }
 
+/* ******************** buttons *************** */
+
 .intro{
     border: solid var(--line) 1px;
     padding: 20px;
     border-radius: 4px 0 0 4px;
+     text-decoration: none;
 }
+
 
 .work {
     border-top: solid var(--line) 1px;
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
     padding: 20px;
+     text-decoration: none;
 }
 
 .about {
@@ -171,6 +177,7 @@ ul.horizontal-list li {
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
     padding: 20px;
+     text-decoration: none;
 }
 
 .contact {
@@ -179,8 +186,29 @@ ul.horizontal-list li {
     border-bottom: solid var(--line) 1px;
     padding: 20px;
     border-radius: 0 4px 4px 0;
+     text-decoration: none;
 }
 
+/* ******************* Button Hover effect ********* */
+
+.intro:hover {
+    background-color: var(--opaqe);
+}
+
+.work:hover {
+    background-color: var(--opaqe);
+}
+
+.about:hover {
+    background-color: var(--opaqe);
+}
+
+.contact:hover {
+    background-color: var(--opaqe);
+   
+}
+
+/* ************************* footer *************** */
 
 .footer {
     align-self: center;
