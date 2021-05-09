@@ -49,11 +49,7 @@ html, body {
 .small-container {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* align-self: center; */
-    /* display: flex; */
     justify-content: space-between;
-    /* margin: 50px 100px; */
     padding: 2rem 1rem;
     position: relative;
 }
@@ -61,27 +57,20 @@ html, body {
 .circle {
     display: flex;
     align-self: center;
-    /* font-family: 'Istok Web',
-    sans-serif; */
     font-family: 'Nunito',
     sans-serif;
     text-transform: uppercase;
-
-
-
-
+    
     height: 100px;
     width: 100px;
-    /* margin-left: 46%; */
-    /* margin-top: 50px; */
     border: solid var(--line) 1px;
     border-radius: 50%;
 }
 
 .aw-span {
     display: flex;
-
-    align-self: center;
+    margin-top: 25%;
+    justify-content: center;
     flex-grow: 4;
 }
 
@@ -93,16 +82,14 @@ html, body {
 }
 
 .inner-paragraph {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-self: center;
+    /* align-self: center; */
     border-top: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
     padding: 48px 32px;
     text-transform: uppercase;
-    /* margin-left: 35%; */
-    /* font-family: 'Istok Web',
-    sans-serif; */
     font-family: 'Nunito',
     sans-serif;
     /* background-color: blueviolet; */
@@ -132,9 +119,6 @@ li {
     text-transform: uppercase;
     align-self: center;
     justify-content: space-evenly;
-    /* text-decoration: none; */
-    /* font-family: 'Istok Web',
-    sans-serif; */
     font-family: 'Nunito',
     sans-serif;
     font-weight: 200;
@@ -143,10 +127,8 @@ li {
 }
 
 ul.horizontal-list {
-    /* min-width: 696px; */
     list-style: none;
     padding-top: 20px;
-    /* border-radius: 4px; */
 }
 
 ul.horizontal-list li {
@@ -160,7 +142,8 @@ ul.horizontal-list li {
     border: solid var(--line) 1px;
     padding: 20px;
     border-radius: 4px 0 0 4px;
-     text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -169,7 +152,8 @@ ul.horizontal-list li {
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
     padding: 20px;
-     text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .about {
@@ -177,7 +161,8 @@ ul.horizontal-list li {
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
     padding: 20px;
-     text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .contact {
@@ -186,7 +171,8 @@ ul.horizontal-list li {
     border-bottom: solid var(--line) 1px;
     padding: 20px;
     border-radius: 0 4px 4px 0;
-     text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* ******************* Button Hover effect ********* */
@@ -212,8 +198,6 @@ ul.horizontal-list li {
 
 .footer {
     align-self: center;
-    /* font-family: 'Istok Web',
-    sans-serif; */
     font-family: 'Nunito',
     sans-serif;
     font-weight: 200;
