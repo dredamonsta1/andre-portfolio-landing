@@ -28,7 +28,6 @@ html, body {
 .container {
     display: flex;
     justify-content: space-between;
-    /* padding: 3rem 2rem; */
     position: relative;
     height: 100%;
     background-image: url('./image/mountains-440520_1920.jpg');
@@ -40,18 +39,21 @@ html, body {
 }
 
 .filter-shade {
+    display: flex;
     height: 100%;
     width: 100%;
     background: rgba(0, 0,0, 0.3);
+    align-items: center;
+    justify-content: center;
+
 
 }
 
 .small-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 2rem 1rem;
-    position: relative;
+    width: 600px;  
 }
 
 .circle {
@@ -60,7 +62,6 @@ html, body {
     font-family: 'Nunito',
     sans-serif;
     text-transform: uppercase;
-    
     height: 100px;
     width: 100px;
     border: solid var(--line) 1px;
@@ -78,22 +79,18 @@ html, body {
     height: 100px;
     border-left: solid var(--line) 1px;
     margin-left: 50%;
-
 }
 
 .inner-paragraph {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-self: center; */
     border-top: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
     padding: 48px 32px;
     text-transform: uppercase;
     font-family: 'Nunito',
     sans-serif;
-    /* background-color: blueviolet; */
-    
 }
 
 .downline-bottom {
@@ -104,7 +101,6 @@ html, body {
 
 ul {
     display: flex;
-    
 }
 
 li {
@@ -115,7 +111,6 @@ li {
 }
 .list-work {
     display: flex;
-    /* display: table; */
     text-transform: uppercase;
     align-self: center;
     justify-content: space-evenly;
