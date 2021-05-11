@@ -30,7 +30,7 @@ html, body {
     justify-content: space-between;
     position: relative;
     height: 100%;
-    background-image: url('./image/mountains-440520_1920.jpg');
+    background-image: url('./image/IMG_5161.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -93,6 +93,10 @@ html, body {
     sans-serif;
 }
 
+p {
+    font-size: 13px;
+}
+
 .downline-bottom {
     height: 100px;
     border-left: solid var(--line) /* green*/ 1px;
@@ -135,7 +139,7 @@ ul.horizontal-list li {
 
 .intro{
     border: solid var(--line) 1px;
-    padding: 20px;
+    padding: 20px 25px 20px 25px;
     border-radius: 4px 0 0 4px;
     text-decoration: none;
     cursor: pointer;
@@ -146,7 +150,7 @@ ul.horizontal-list li {
     border-top: solid var(--line) 1px;
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
-    padding: 20px;
+    padding: 20px 35px 20px 38px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -155,7 +159,7 @@ ul.horizontal-list li {
     border-top: solid var(--line) 1px;
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
-    padding: 20px;
+    padding: 20px 27px 20px 20px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -164,7 +168,7 @@ ul.horizontal-list li {
     border-top: solid var(--line) 1px;
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
-    padding: 20px;
+    padding: 20px 25px 20px 25px;
     border-radius: 0 4px 4px 0;
     text-decoration: none;
     cursor: pointer;
