@@ -220,3 +220,21 @@ ul.horizontal-list li {
     background-color: rgba(0, 0,0, 0.3);
 
 }
+
+
+.play-screen-modal {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

@@ -1,11 +1,11 @@
-let modal = document.getElementById("");
+let modal = document.getElementById("introModal");
 
-let btn = document.getElementById("");
+let btn = document.getElementById("intro");
 
-let span = document.getElementById("");
+let span = document.getElementById("close")[0];
 
 btn.onClick = function () {
-    modal.style.display = "";
+    modal.style.display = "block";
     console.log("you clicked btn");
 }
 
