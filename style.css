@@ -176,19 +176,19 @@ ul.horizontal-list li {
 
 /* ******************* Button Hover effect ********* */
 
-.intro:hover {
+.intro:hover, .intro:focus {
     background-color: var(--opaqe);
 }
 
-.work:hover {
+.work:hover, .work:focus {
     background-color: var(--opaqe);
 }
 
-.about:hover {
+.about:hover, .about:focus {
     background-color: var(--opaqe);
 }
 
-.contact:hover {
+.contact:hover, .contact:focus {
     background-color: var(--opaqe);
    
 }
@@ -206,9 +206,12 @@ ul.horizontal-list li {
     
 }
 
-.modal {
-    display: none;
-    position: fixed;
+.modal-bg {
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
     z-index: 1;
     padding-top: 100px;
     left: 0;
@@ -222,8 +225,17 @@ ul.horizontal-list li {
 }
 
 
-.play-screen-modal {
+.modal {
     background-color: #fefefe;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
