@@ -6,9 +6,9 @@ import Layout from '../../components/layout'
 export default function FirstPost() {
     return (
         <Layout>
-            <head>
+            <Head>
                 <title>First Post</title>
-            </head>
+            </Head>
             <h1>First Post</h1>
             <h2>
                 <Link href="/">
