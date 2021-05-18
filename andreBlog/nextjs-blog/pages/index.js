@@ -5,28 +5,20 @@ import utilStyles from '../styles/utils.module.css'
 
 import { getSortedPostsData } from '../lib/posts'
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
-}
 
 export default function Home({allPostsData}) {
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>[Hi, I'm {'Andre'}. I'm a software Developer just embracing the chaos]</p>
+    <Head>
+    <title>{siteTitle}</title>
+    </Head>
+    <section className={utilStyles.headingMd}>
+    <p>[Hi, I'm {'Andre'}. I'm a software Developer just embracing the chaos]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '})
+        (This is a sample website - you’ll be building a site like this on{' '})
         </p>
       </section>
- 
+      
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
       <h2 className={utilStyles.headingLg}>Blog</h2>
@@ -38,14 +30,23 @@ export default function Home({allPostsData}) {
             {id}
             <br />
             {date}
-          </li>
-        ))}
-      </ul>
-    </section>
+            </li>
+            ))}
+            </ul>
+            </section>
 
-      <Link href="/posts/first-post">
+            <Link href="/posts/first-post">
           <a>Here goes nothing</a>
-      </Link>
-    </Layout>
-  )
+          </Link>
+          </Layout>
+          )
+        }
+        
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
 }
