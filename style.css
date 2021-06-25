@@ -206,12 +206,14 @@ ul.horizontal-list li {
     
 }
 
+/* **************************Modal***************** */
+
 .modal-bg {
     /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     z-index: 1;
     padding-top: 100px;
     left: 0;
@@ -221,14 +223,16 @@ ul.horizontal-list li {
     overflow: auto;
     background-color: rbg(0,0,0);
     background-color: rgba(0, 0,0, 0.3);
+    /* visibility: hidden;
+    opacity: 0; */
 
 }
 
 
 .modal {
     background-color: #fefefe;
-    width: 30%;
-    height: 30%;
+    width: 10%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,9 +241,11 @@ ul.horizontal-list li {
 
 
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
     border: 1px solid #888;
     width: 80%;
+    visibility: hidden;
+    opacity: 0;
 }
 
 
