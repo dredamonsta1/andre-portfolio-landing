@@ -1,22 +1,25 @@
-let modal = document.getElementById("introModal");
 
-let btn = document.getElementById("intro");
 
-let span = document.getElementById("close")[0];
 
-btn.onClick = function () {
-    modal.style.display = "block";
-    console.log("you clicked btn");
-}
+let modalBtn = document.querySelector(".intro");
+let workModalBtn = document.querySelector(".work");
 
-span.onClick = function () {
-    modal.style.display = "none";
-    console.log("you clicked span");
-}
+let modalBg = document.querySelector(".modal-bg");
 
-window.onClick = function (event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
-    }
-    console.log("you clicked window");
-}
+let modalClose = document.querySelector(".modal-close");
+
+
+
+
+modalBtn.addEventListener('click', function(){
+    modalBg.classList.add("bg-active");
+});
+
+modalClose.addEventListener("click", function(){
+    modalBg.classList.remove("bg-active");
+});
+
+
+workModalBtn.addEventListener('click', function(){
+    modalBg.classList.add("bg-active");
+});
