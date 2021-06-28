@@ -30,3 +30,8 @@ workModalBtn.addEventListener("click", function(){
 aboutModalBtn.addEventListener("click", function(){
     modalBg.classList.add("bg-active");
 });
+
+
+contactModalBtn.addEventListener("click", function(){
+    modalBg.classList.add("bg-active");
+});
