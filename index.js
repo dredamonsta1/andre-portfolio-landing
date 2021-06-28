@@ -3,6 +3,9 @@
 
 let modalBtn = document.querySelector(".intro");
 let workModalBtn = document.querySelector(".work");
+let aboutModal = document.querySelector(".about");
+let contactModal = document.querySelector(".contact");
+
 
 let modalBg = document.querySelector(".modal-bg");
 
@@ -22,4 +25,8 @@ modalClose.addEventListener("click", function(){
 
 workModalBtn.addEventListener('click', function(){
     modalBg.classList.add("bg-active");
+});
+
+aboutModal.addEventListener("click", function(){
+    modalBg.classList.add("bg=active");
 });
