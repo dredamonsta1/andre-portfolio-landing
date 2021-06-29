@@ -132,7 +132,7 @@ li {
 
 ul.horizontal-list {
     list-style: none;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 ul.horizontal-list li {
@@ -147,6 +147,7 @@ ul.horizontal-list li {
     padding: 20px 25px 20px 25px;
     border-radius: 4px 0 0 4px;
     text-decoration: none;
+    background-color: rgba(220, 20, 60, 0);
     cursor: pointer;
 }
 
@@ -155,8 +156,9 @@ ul.horizontal-list li {
     border-top: solid var(--line) 1px;
     border-right: solid var(--line) 1px;
     border-bottom: solid var(--line) 1px;
-    padding: 20px 35px 20px 38px;
+    padding: 20px 39px 20px 38px;
     text-decoration: none;
+    background-color: rgba(220, 20, 60, 0);
     cursor: pointer;
 }
 
@@ -166,6 +168,7 @@ ul.horizontal-list li {
     border-bottom: solid var(--line) 1px;
     padding: 20px 27px 20px 20px;
     text-decoration: none;
+    background-color: rgba(220, 20, 60, 0);
     cursor: pointer;
 }
 
@@ -176,6 +179,7 @@ ul.horizontal-list li {
     padding: 20px 25px 20px 25px;
     border-radius: 0 4px 4px 0;
     text-decoration: none;
+    background-color: rgba(220, 20, 60, 0);
     cursor: pointer;
 }
 
