@@ -1,4 +1,11 @@
+// var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
 
 
 // let modalBtn = document.querySelector(".intro");
@@ -29,6 +36,7 @@ let modalClose = document.querySelector(".modal-close");
 
     })
 })
+
 
 
 modalClose.addEventListener("click", function(){
