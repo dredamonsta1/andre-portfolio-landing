@@ -336,4 +336,5 @@ ul.horizontal-list li {
     /* float: right; */
     font-size: 28px;
     cursor: pointer;
+    z-index: 8;
 }
