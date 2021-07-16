@@ -8,11 +8,6 @@
 // }
 
 
-// let modalBtn = document.querySelector(".intro");
-// let workModalBtn = document.querySelector(".work");
-// let aboutModalBtn = document.querySelector(".about");
-// let contactModalBtn = document.querySelector(".contact");
-
 
 let modalBgIntro = document.querySelector(".modal-bg");
 let modalBgWork = document.querySelector(".modal-bg-work");
@@ -32,7 +27,6 @@ let modalClose = document.querySelector(".modal-close");
     
     item.addEventListener("click", function(){
         modalBgIntro.classList.add("bg-active");
-        // modalBgWork.classList.add("bg-active");
 
     })
 })
@@ -43,19 +37,3 @@ modalClose.addEventListener("click", function(){
     modalBgIntro.classList.remove("bg-active");
 });
 
-// modalBtn.addEventListener('click', function(){
-//     modalBg.classList.add("bg-active");
-// });
-
-// workModalBtn.addEventListener("click", function(){
-//     modalBg.classList.add("bg-active");
-// });
-
-// aboutModalBtn.addEventListener("click", function(){
-//     modalBg.classList.add("bg-active");
-// });
-
-
-// contactModalBtn.addEventListener("click", function(){
-//     modalBg.classList.add("bg-active");
-// });
