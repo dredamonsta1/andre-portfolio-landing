@@ -26,28 +26,29 @@ let modalClose = document.querySelector(".modal-close");
 ].forEach(item => {
     
     item.addEventListener("click", function(){
-        // modalBgIntro.classList.add("bg-active");
+        modalBgIntro.classList.add("bg-active");
         // modalBgAbout.classList.add("bg-active");
         // modalBgIntro.classList.add("bg-active");
 
     })
-})
+});
 
-// let introModal = modalBgIntro.classList.add("bg-active");
-
-// let workModal = modalBgWork.classList.add("bg-active");
-
-// let aboutModal = modalBgAbout.classList.add("bg-active");
-
-// let contactModal = modalBgContact.classList.add("bg-active");
 
 
 modalClose.addEventListener("click", function(){
     modalBgIntro.classList.remove("bg-active");
     // modalBgAbout.classList.remove("bg-active");
+    // modalBgContact.classList.remove("bg-active");
 });
 
 
 function modalInfo() {
     return 
+    let introModal = modalBgIntro.classList.add("bg-active");
+    
+    let workModal = modalBgWork.classList.add("bg-active");
+    
+    let aboutModal = modalBgAbout.classList.add("bg-active");
+    
+    let contactModal = modalBgContact.classList.add("bg-active");
 }
