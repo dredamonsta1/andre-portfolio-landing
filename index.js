@@ -17,31 +17,59 @@ let modalBgIntro = document.querySelector(".modal-bg");
 // let modalClose = document.querySelector(".modal-close");
 
 // *********************************NEW CODE*************
+
+// get modal element
 var modal = document.getElementById("introModal");
 
+// get open modal
 var introBtn = document.getElementById("introModalBtn");
 
-var span = document.getElementsByClassName("modal-close")[0];
+// get close button
+var closeBtn = document.getElementsByClassName("modal-close")[0];
 
+// listen for open click
+introBtn.addEventListener('click', changeColor);
 
+// listen for close click
+// introBtn.addEventListener('click', closeModal);
 
-introBtn.onclick = function() {
-    modal.style.display = "block";
-    console.log("you clicked")
+// function to open modal
+function openModal() {
+  modal.style.display = 'block';
+  console.log('123')
+
 }
 
+function changeColor(newColor) {
+  var elem = document.getElementById("introModal");
+  elem.style.display = newColor;
+  console.log("jump")
+}
+
+// function to close modal
+// function closeModal() {
+//   modal.style.display = 'none';
+//   console.log('end')
+
+// }
+
+// introBtn.onclick = function() {
+//     modal[0].style.display = "block";
+//     console.log("you clicked")
+// }
+
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-    console.log("x got clicked")
-  }
+// span.onclick = function() {
+//     modal.style.display = "none";
+//     console.log("x got clicked")
+//   }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//       modal.style.display = "none";
+//     }
+//   }
 
 // [
 //     document.querySelector(".intro"), 
