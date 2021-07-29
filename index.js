@@ -124,8 +124,15 @@ let modalAbout = document.querySelector('modal-bg-about')
 let modalContact = document.querySelector('modal-bg-contact')
 
 window.addEventListener('click', event => {
-  if (event.target !== modal && event.target !== modalWork && event.target !==modalAbout && event.target !== modalContact){
+  if (
+    event.target !== modal && 
+    event.target !== modalWork && 
+    event.target !==modalAbout && 
+    event.target !== modalContact
+    )
+    {
     return console.log(`did it ${event.path}`, event.path)
+    // modal.style.display = "none";
   }
   console.log('did it work')
 })
