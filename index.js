@@ -118,12 +118,20 @@
 //     let contactModal = modalBgContact.classList.add("bg-active");
 // }
 
-let modal = document.querySelector('modal-bg')
-let modalWork = document.querySelector('modal-bg-work')
-let modalAbout = document.querySelector('modal-bg-about')
-let modalContact = document.querySelector('modal-bg-contact')
+let modal = document.getElementById('introModal')
+let modalWork = document.getElementById('workModal')
+let modalAbout = document.getElementById('aboutModal')
+let modalContact = document.getElementById('contactModal')
 
-window.addEventListener('click', event => {
+let openIntro = document.getElementById('introModalBtn')
+
+let openWork = document.getElementById('workModalBtn')
+
+let openAbout = document.getElementById('aboutModalBtn')
+
+let openContact = document.getElementById('contactModalBtn')
+
+openIntro.addEventListener('click', (event) => {
   if (
     event.target !== modal && 
     event.target !== modalWork && 
@@ -131,8 +139,82 @@ window.addEventListener('click', event => {
     event.target !== modalContact
     )
     {
-    return console.log(`did it: ${event.path}`, event.path)
+    return modal.classList.add("bg-active");
+    
+    console.log(`did it: ${path}`, event.path)
+    
     // modal.style.display = "none";
   }
   console.log('did it work')
 })
+
+openWork.addEventListener('click', (event) => {
+  if (
+    event.target !== modal && 
+    event.target !== modalWork && 
+    event.target !==modalAbout && 
+    event.target !== modalContact
+    )
+    {
+    return modal.classList.add("bg-active");
+    
+    console.log(`did it: ${path}`, event.path)
+    
+    // modal.style.display = "none";
+  }
+  console.log('did it work')
+})
+
+openAbout.addEventListener('click', (event) => {
+  if (
+    event.target !== modal && 
+    event.target !== modalWork && 
+    event.target !==modalAbout && 
+    event.target !== modalContact
+    )
+    {
+    return modal.classList.add("bg-active");
+    
+    console.log(`did it: ${path}`, event.path)
+    
+    // modal.style.display = "none";
+  }
+  console.log('did it work')
+})
+
+openContact.addEventListener('click', (event) => {
+  if (
+    event.target !== modal && 
+    event.target !== modalWork && 
+    event.target !==modalAbout && 
+    event.target !== modalContact
+    )
+    {
+    return modal.classList.add("bg-active");
+    
+    console.log(`did it: ${path}`, event.path)
+    
+    // modal.style.display = "none";
+  }
+  console.log('did it work')
+})
+
+
+// close.addEventListener('click', (event) => {
+//   if (
+//     event.target !== modal && 
+//     event.target !== modalWork && 
+//     event.target !==modalAbout && 
+//     event.target !== modalContact
+//     )
+//     {
+//     return console.log(`did it: ${span}`, event.path)
+    
+//     modal.classList.remove("bg-active");
+    
+    
+    
+    // modal.style.display = "none";
+//   }
+//   console.log('did it work')
+// })
