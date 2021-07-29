@@ -131,7 +131,7 @@ window.addEventListener('click', event => {
     event.target !== modalContact
     )
     {
-    return console.log(`did it ${event.path}`, event.path)
+    return console.log(`did it: ${event.path}`, event.path)
     // modal.style.display = "none";
   }
   console.log('did it work')
