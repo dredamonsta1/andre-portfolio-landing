@@ -139,10 +139,7 @@ openIntro.addEventListener('click', (event) => {
     event.target !== modalContact
     )
     {
-    return modal.classList.add("bg-active");
-    
-    console.log(`did it: ${path}`, event.path)
-    
+    return modal.classList.add("bg-active");    
     // modal.style.display = "none";
   }
   console.log('did it work')
@@ -156,9 +153,7 @@ openWork.addEventListener('click', (event) => {
     event.target !== modalContact
     )
     {
-    return modal.classList.add("bg-active");
-    
-    console.log(`did it: ${path}`, event.path)
+    return modalWork.classList.add("bg-active");
     
     // modal.style.display = "none";
   }
@@ -173,9 +168,7 @@ openAbout.addEventListener('click', (event) => {
     event.target !== modalContact
     )
     {
-    return modal.classList.add("bg-active");
-    
-    console.log(`did it: ${path}`, event.path)
+    return modalAbout.classList.add("bg-active");
     
     // modal.style.display = "none";
   }
@@ -190,9 +183,8 @@ openContact.addEventListener('click', (event) => {
     event.target !== modalContact
     )
     {
-    return modal.classList.add("bg-active");
+    return modalContact.classList.add("bg-active");
     
-    console.log(`did it: ${path}`, event.path)
     
     // modal.style.display = "none";
   }
@@ -200,21 +192,21 @@ openContact.addEventListener('click', (event) => {
 })
 
 
-// close.addEventListener('click', (event) => {
-//   if (
-//     event.target !== modal && 
-//     event.target !== modalWork && 
-//     event.target !==modalAbout && 
-//     event.target !== modalContact
-//     )
-//     {
-//     return console.log(`did it: ${span}`, event.path)
+close.addEventListener('click', (event) => {
+  if (
+    event.target !== modal && 
+    event.target !== modalWork && 
+    event.target !==modalAbout && 
+    event.target !== modalContact
+    )
+    {
+    return console.log(`did it: ${span}`, event.path)
     
-//     modal.classList.remove("bg-active");
+    modal.classList.remove("bg-active");
     
     
     
-    // modal.style.display = "none";
-//   }
-//   console.log('did it work')
-// })
+    modal.style.display = "none";
+  }
+  console.log('did it work')
+})
