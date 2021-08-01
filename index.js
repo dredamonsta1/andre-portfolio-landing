@@ -1,19 +1,13 @@
 // var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
-// *********************************NEW CODE*************
 
-
+// *********************Modal******************
 let modal = document.getElementById('introModal')
 let modalWork = document.getElementById('workModal')
 let modalAbout = document.getElementById('aboutModal')
 let modalContact = document.getElementById('contactModal')
 
+// *********************Open Modal******************
 let openIntro = document.getElementById('introModalBtn')
 
 let openWork = document.getElementById('workModalBtn')
@@ -22,6 +16,7 @@ let openAbout = document.getElementById('aboutModalBtn')
 
 let openContact = document.getElementById('contactModalBtn')
 
+// *********************CloseModal******************
 let close = document.getElementsByClassName('modal-close')[0];
 
 let closeWork = document.getElementsByClassName('modal-close')[1];
@@ -30,6 +25,8 @@ let closeAbout = document.getElementsByClassName('modal-close')[2];
 
 let closeContact = document.getElementsByClassName('modal-close')[3];
 
+
+// *********************OpenModal******************
 openIntro.addEventListener('click', (event) => {
   if (
     event.target !== modal && 
@@ -87,6 +84,7 @@ openContact.addEventListener('click', (event) => {
 })
 
 
+// *********************CloseModal******************
 close.addEventListener('click', (event) => {
   if (
     event.target !== modal && 
@@ -142,3 +140,11 @@ closeContact.addEventListener('click', (event) => {
     
   }
 })
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
