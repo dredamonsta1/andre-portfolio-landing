@@ -1,13 +1,13 @@
-// var modal = document.getElementById('id01');
+// *********************Modal Buttons******************
 
-
-// *********************Modal******************
 let modal = document.getElementById('introModal')
 let modalWork = document.getElementById('workModal')
 let modalAbout = document.getElementById('aboutModal')
 let modalContact = document.getElementById('contactModal')
 
 // *********************Open Modal******************
+// let allNone = () => {}
+
 let openIntro = document.getElementById('introModalBtn')
 
 let openWork = document.getElementById('workModalBtn')
@@ -27,6 +27,7 @@ let closeContact = document.getElementsByClassName('modal-close')[3];
 
 
 // *********************OpenModal******************
+
 openIntro.addEventListener('click', (event) => {
   if (
     event.target !== modal && 
@@ -147,4 +148,8 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+function toggleModal() {
+  
 }
