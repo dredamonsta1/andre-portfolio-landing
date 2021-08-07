@@ -317,6 +317,10 @@ ul.horizontal-list li {
     margin-left: 20%;
 }
 
+.contact-icons {
+    padding-left: 35%;
+}
+
 .bg-active{
     visibility: visible;
     opacity: 1;
