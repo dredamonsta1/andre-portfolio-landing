@@ -233,6 +233,7 @@ ul.horizontal-list li {
      visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
+    border-radius: 5px;
 }
 .modal-bg-work {
     /* display: none; */
@@ -254,6 +255,7 @@ ul.horizontal-list li {
      visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
+    border-radius: 5px;
 }
 
 .modal-bg-about {
@@ -339,15 +341,11 @@ ul.horizontal-list li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* color: white; */
-
 
 
     margin: auto;
-    /* padding: 20px; */
     border: 1px solid #888;
     width: 80%;
-    /* visibility: hidden; */
     opacity: 0;
 }
 
