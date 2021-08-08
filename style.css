@@ -260,16 +260,19 @@ ul.horizontal-list li {
     position: fixed;
     z-index: 1;
     padding-top: 100px;
+    margin-top: 20px;
+    margin-left: 27.5%;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 570px;
+    height: 624px;
     overflow: auto;
     background-color: rbg(0,0,0);
     background-color: rgba(0, 0,0, 0.9);
      visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
+    border-radius: 5px;
 }
 
 .modal-bg-contact {
@@ -280,17 +283,19 @@ ul.horizontal-list li {
     position: fixed;
     z-index: 1;
     padding-top: 100px;
+    margin-top: 20px;
     margin-left: 27.5%;
     left: 0;
     top: 0;
     width: 570px;
-    height: 684px;
+    height: 624px;
     overflow: auto;
     background-color: rbg(0,0,0);
     background-color: rgba(0, 0,0, 0.9);
      visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
+    border-radius: 5px;
 }
 
 .modal-bg-contact h1 {
