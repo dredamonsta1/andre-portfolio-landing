@@ -214,7 +214,6 @@ ul.horizontal-list li {
 /* **************************Modal***************** */
 
 .modal-bg {
-    /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,7 +235,6 @@ ul.horizontal-list li {
     border-radius: 5px;
 }
 .modal-bg-work {
-    /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +257,6 @@ ul.horizontal-list li {
 }
 
 .modal-bg-about {
-    /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,7 +279,6 @@ ul.horizontal-list li {
 }
 
 .modal-bg-contact {
-    /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
