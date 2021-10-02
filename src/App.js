@@ -1,5 +1,6 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
+import img from './image/IMG_5161.JPG';
 import "./App.css";
 
 class App extends Component{

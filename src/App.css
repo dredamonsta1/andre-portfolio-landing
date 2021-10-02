@@ -22,9 +22,9 @@ html, body {
     height: 100%;
 }
 
-/* .container { */
+.container {
     /* filter: blur(8px); */
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     position: relative;
     height: 100%;
@@ -34,9 +34,9 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
 
-} */
+}
 
-/* .filter-shade {
+.filter-shade {
     display: flex;
     height: 100%;
     width: 100%;
@@ -45,19 +45,19 @@ html, body {
     justify-content: center;
 
 
-} */
+}
 
-/* .small-container { */
+.small-container {
      /* filter: blur(8px); */
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
     width: 600px;  
-} */
+}
 
-/* .circle { */
+.circle {
     /* filter: blur(8px); */
-    /* display: flex;
+    display: flex;
     align-self: center;
     font-family: 'Nunito',
     sans-serif;
@@ -66,16 +66,16 @@ html, body {
     width: 100px;
     border: solid var(--line) 1px;
     border-radius: 50%;
-} */
+}
 
-/* .aw-span {
+.aw-span {
     display: flex;
     margin-top: 25%;
     justify-content: center;
     flex-grow: 4;
-} */
+}
 
-/* .line-under-circle {
+.line-under-circle {
     height: 100px;
     border-left: solid var(--line) 1px;
     margin-left: 50%;
@@ -91,19 +91,19 @@ html, body {
     text-transform: uppercase;
     font-family: 'Nunito',
     sans-serif;
-} */
-/* 
+}
+
 p {
     font-size: 13px;
 }
 
 .downline-bottom {
     height: 100px;
-    border-left: solid var(--line) 1px;
+    border-left: solid var(--line) /* green*/ 1px;
     margin-left: 50%;
-} */
+}
 
-/* ul {
+ul {
     display: flex;
 }
 
@@ -112,8 +112,8 @@ li {
     display: flex;
     flex-wrap: wrap; 
     gap: 0px;
-} */
-/* .list-work {
+}
+.list-work {
     display: flex;
     text-transform: uppercase;
     align-self: center;
@@ -131,10 +131,10 @@ ul.horizontal-list {
 
 ul.horizontal-list li {
     display: inline;   
-} */
+}
 
 /* ******************** buttons *************** */
-/* 
+
 .intro{
     border: solid var(--line) 1px;
     padding: 20px 25px 20px 25px;
@@ -178,11 +178,11 @@ ul.horizontal-list li {
     color: white;
     background-color: rgba(220, 20, 60, 0);
     cursor: pointer;
-} */
+}
 
 /* ******************* Button Hover effect ********* */
 
-/* .intro:hover, .intro:focus {
+.intro:hover, .intro:focus {
     background-color: var(--opaqe);
 }
 
@@ -197,11 +197,11 @@ ul.horizontal-list li {
 .contact:hover, .contact:focus {
     background-color: var(--opaqe);
    
-} */
+}
 
 /* ************************* footer *************** */
 
-/* .footer {
+.footer {
     align-self: center;
     font-family: 'Nunito',
     sans-serif;
@@ -209,15 +209,15 @@ ul.horizontal-list li {
     font-size: 10px;
     margin-top: 100px;
     color: white;
-} */
+}
 
 /* **************************Modal***************** */
 
-/* .modal-bg {
+.modal-bg {
     display: flex;
-    justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    /* position: fixed;
+    position: fixed;
     z-index: 1;
     padding-top: 100px;
     margin-top: 20px;
@@ -233,12 +233,12 @@ ul.horizontal-list li {
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
     border-radius: 5px;
-} */
-/* .modal-bg-work {
+}
+.modal-bg-work {
     display: flex;
-    justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    /* position: fixed;
+    position: fixed;
     z-index: 1;
     padding-top: 100px;
     margin-top: 20px;
@@ -254,13 +254,13 @@ ul.horizontal-list li {
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
     border-radius: 5px;
-} */
-/* 
+}
+
 .modal-bg-about {
     display: flex;
-    justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    /* position: fixed;
+    position: fixed;
     z-index: 1;
     padding-top: 100px;
     margin-top: 20px;
@@ -276,13 +276,13 @@ ul.horizontal-list li {
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
     border-radius: 5px;
-} */
+}
 
-/* .modal-bg-contact {
+.modal-bg-contact {
     display: flex;
-    justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    /* position: fixed;
+    position: fixed;
     z-index: 1;
     padding-top: 100px;
     margin-top: 20px;
@@ -298,9 +298,9 @@ ul.horizontal-list li {
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
     border-radius: 5px;
-} */
+}
 
-/* .modal-bg-contact h1 {
+.modal-bg-contact h1 {
     padding-left: 27%;
 }
 
@@ -356,7 +356,7 @@ ul.horizontal-list li {
     font-size: 28px;
     cursor: pointer;
     z-index: 8;
-} */
+}
 
 
 
