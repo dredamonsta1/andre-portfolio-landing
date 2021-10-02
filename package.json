@@ -1,0 +1,25 @@
+{
+  "name": "andre-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dredamonsta1/andre-portfolio-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dredamonsta1/andre-portfolio-landing/issues"
+  },
+  "homepage": "https://github.com/dredamonsta1/andre-portfolio-landing#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "terser": "^5.9.0"
+  }
+}
