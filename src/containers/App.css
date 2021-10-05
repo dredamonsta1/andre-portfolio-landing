@@ -28,7 +28,7 @@ html, body {
     justify-content: space-between;
     position: relative;
     height: 100%;
-    background-image: url('./image/IMG_5161.JPG');
+    background-image: url('../image/IMG_5161.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

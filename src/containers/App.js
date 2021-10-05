@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {hot} from "react-hot-loader";
-import LandingPageCircle from "./LandingPageCircle";
+import LandingPageCircle from "../LandingPageCircle";
 // import img from './image/IMG_5161.JPG';
 // import "./App.css";
 
