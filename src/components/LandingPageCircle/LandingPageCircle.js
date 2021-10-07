@@ -2,8 +2,6 @@ import React, { Component }from "react";
 
 
 
-
-
 function LandingPageCircle() {
     
     return (
