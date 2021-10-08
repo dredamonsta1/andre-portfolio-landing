@@ -3,20 +3,20 @@ import {hot} from "react-hot-loader";
 import LandingPageCircle from "../components/LandingPageCircle/LandingPageCircle";
 import LandingPageContainer from "../components/LandigPageContainer/LandingPageContainer";
 import Modal from "../components/Modal/Modal";
-// import img from '../image/IMG_5161.JPG';
-// import "./App.css";
+import img from '../image/aurora.jpg';
+import "./App.css";
 
-class App extends Component{
-  render(){
+function App() {
     return(
-      <div className="App" style={{ backgroundImage: 'url(../image/IMG_5161.JPG)'}}>
+      <div className="app-background" styles={{ backgroundImage:'url(' +img + ')' }}>
+      
 
         <LandingPageCircle />
         < LandingPageContainer />
         < Modal />
       </div>
     );
-  }
+  
 }
 
 export default hot(module)(App);
