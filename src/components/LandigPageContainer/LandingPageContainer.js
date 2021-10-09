@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./LandingPageContainer.css";
+import styles from "./LandingPageContainer.module.css";
 
 
 
