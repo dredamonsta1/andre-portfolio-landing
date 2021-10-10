@@ -36,7 +36,14 @@ html, body {
 }
 
 .app-background {
-    background-image: url(../image/aurora.jpg);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0,0, 0.7);
+    align-items: center;
+    justify-content: center;
+
+    
 
 }
 
@@ -59,9 +66,9 @@ html, body {
     width: 600px;  
 }
 
-.circle {
+/* .circle { */
     /* filter: blur(8px); */
-    display: flex;
+    /* display: flex;
     align-self: center;
     font-family: 'Nunito',
     sans-serif;
@@ -69,16 +76,16 @@ html, body {
     height: 100px;
     width: 100px;
     border: solid var(--line) 1px;
-    border-radius: 50%;
+    border-radius: 50%; */
     /* background-color: black; */
-}
+/* } */
 
-.aw-span {
+/* .aw-span {
     display: flex;
     margin-top: 25%;
     justify-content: center;
     flex-grow: 4;
-}
+} */
 
 .line-under-circle {
     height: 100px;

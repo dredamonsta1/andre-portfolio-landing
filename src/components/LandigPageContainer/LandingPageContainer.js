@@ -7,7 +7,6 @@ import styles from "./LandingPageContainer.module.css";
 function LandingPageContainer() {
     return (
         <div>
-            <h1> is the container section.</h1>
             <div className="line-under-circle" />
             <div className="downline-top" />
             <div className="inner-paragraph">

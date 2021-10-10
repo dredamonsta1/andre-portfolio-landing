@@ -2,9 +2,30 @@ import React, { Component } from "react";
 
 
 
-function Modal() {
+function Modal(props) {
+    if (!props.show) {
+        return null
+    }
     return (
-        <h1>Modal on the way</h1>
+        
+        <div className="list-work">
+            <div className="modal">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <h4 className="modal-title">Enter</h4>
+                    </div>
+                    <div className="modal-body">
+                        This is Modal Contentssss
+                    </div>
+                    <div className="modal-footer">
+                        <button className="button">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
     );
 }
 
