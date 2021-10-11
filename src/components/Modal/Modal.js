@@ -18,7 +18,7 @@ function Modal(props) {
                         This is Modal Contentssss
                     </div>
                     <div className="modal-footer">
-                        <button className="button">close</button>
+                        <button className="button" onClick={props.onClise}>close</button>
                     </div>
                 </div>
             </div>

@@ -3,11 +3,12 @@ import {hot} from "react-hot-loader";
 import LandingPageCircle from "../components/LandingPageCircle/LandingPageCircle";
 import LandingPageContainer from "../components/LandigPageContainer/LandingPageContainer";
 import Modal from "../components/Modal/Modal";
+import LandingPageFooter from "../components/LandingPageFooter/LandingPageFooter";
 import img from '../image/nyc.JPG';
 import "./App.css";
 
+// const [show, setShow] = useState(false);
 function App() {
-  const [show, setShow] = useState(false);
     return(
       <div 
         className="app-background" 
@@ -21,15 +22,16 @@ function App() {
           
           <LandingPageCircle />
           < LandingPageContainer />
-          <button className="intro" onClick={() => setShow(true) }>Show Modal</button>
           <button className="work">WORK</button>
           <button className="about">ABOUT</button>
           <button className="contact">CONTACT</button>
-          < Modal onClose={() => setShow(false)} show={show}/>
+          <LandingPageFooter />
           </div>
           </div>
-      </div>
-    );
-}
-
-export default hot(module)(App);
+          </div>
+          );
+        }
+        
+        export default hot(module)(App);
+        // < Modal onClose={() => setShow(false)} show={show}/>
+        // <button className="intro" onClick={() => setShow(true) }>Show Modal</button>
