@@ -3,6 +3,7 @@ import {hot} from "react-hot-loader";
 import LandingPageCircle from "../components/LandingPageCircle/LandingPageCircle";
 import LandingPageContainer from "../components/LandigPageContainer/LandingPageContainer";
 import Modal from "../components/Modal/Modal";
+import LandingPageModal from "../components/LandingPageModal.js/LandingPageModal";
 import LandingPageFooter from "../components/LandingPageFooter/LandingPageFooter";
 import img from '../image/nyc.JPG';
 import "./App.css";
@@ -18,20 +19,16 @@ function App() {
           width: '100%', 
           height: '100%' }}>
           <div className="filter-shade">
-          <div className="small-container">
-          
-          <LandingPageCircle />
-          < LandingPageContainer />
-          <button className="work">WORK</button>
-          <button className="about">ABOUT</button>
-          <button className="contact">CONTACT</button>
-          <LandingPageFooter />
+            <div className="small-container">
+              <LandingPageCircle />
+              < LandingPageContainer />
+              <LandingPageModal />
+              <LandingPageFooter />
+            </div>
           </div>
-          </div>
-          </div>
-          );
-        }
+      </div>
+    );
+  }
         
-        export default hot(module)(App);
-        // < Modal onClose={() => setShow(false)} show={show}/>
-        // <button className="intro" onClick={() => setShow(true) }>Show Modal</button>
+export default hot(module)(App);
+        
