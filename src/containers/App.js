@@ -21,7 +21,7 @@ function App() {
           <div className="filter-shade">
             <div className="small-container">
               <LandingPageCircle />
-              < LandingPageContainer />
+              <LandingPageContainer />
               <LandingPageModal />
               <LandingPageFooter />
             </div>
