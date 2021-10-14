@@ -23,7 +23,10 @@ function App() {
               <LandingPageCircle />
               <LandingPageContainer />
               <LandingPageModal />
+              <div className="contact-icons" alt="social media icons">
+              
               <LandingPageFooter />
+              </div>
             </div>
           </div>
       </div>

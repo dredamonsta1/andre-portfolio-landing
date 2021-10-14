@@ -370,12 +370,15 @@ ul.horizontal-list li {
     z-index: 8;
 }
 
+.contact-icons {
+    font-size: 32px;
+}
 
 
 /* **********************EXTRA************************ */
 
 
-.App {
+/* .App {
     margin: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-  }
+  } */
