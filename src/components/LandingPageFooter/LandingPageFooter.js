@@ -7,6 +7,7 @@ function LandingPageFooter() {
     return (
         <div>
         <h1>Footer</h1>
+            
             <h3> 
             <a href="https://www.linkedin.com/in/andre-wilkinson/"><i className="fa fa-linkedin"></i></a>
             
