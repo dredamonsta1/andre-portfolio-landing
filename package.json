@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/dredamonsta1/andre-portfolio-landing#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
