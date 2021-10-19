@@ -7,7 +7,7 @@ import Modal from "../Modal/Modal";
 
 function LandingPageModal() {
     return (
-        <div>
+        <div className="modal-buttons">
             <button className="intro" onClick={() => setShow(true) }>INTRO</button>
             <button className="work">WORK</button>
             <button className="about">ABOUT</button>

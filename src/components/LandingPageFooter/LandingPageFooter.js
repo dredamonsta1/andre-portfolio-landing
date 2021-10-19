@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faTwitter, faLinkedin, faFacebookF } from '@fortawesome/free-solid-svg-icons'
-// import Modal from '../Modal/Modal';
+
 
 
 
@@ -25,8 +25,8 @@ function LandingPageFooter() {
         <a href="https://www.ninebyfour.tech/"><i className="fa fa-laptop">Website</i></a>
         <a href="https://github.com/dredamonsta1"><i className="fa fa-github"></i>github</a>
         <a href="https://twitter.com/dredamonsta1">{linkedin}</a>
-        <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>;
         
+        <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>;
         </div>
         ); 
         

@@ -1,0 +1,10 @@
+.modal-buttons{
+    display: flex;
+    text-transform: uppercase;
+    align-self: center;
+    justify-content: space-evenly;
+    font-family: 'Nunito',
+    sans-serif;
+    font-weight: 200;
+    font-size: 12px;  
+}
