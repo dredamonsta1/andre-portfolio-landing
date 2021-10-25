@@ -18,15 +18,15 @@ function Modal(props) {
                         This is Modal Contentssss
                     </div>
                     <div className="modal-footer">
-                        <button className="button" onClick={props.onClise}>close</button>
                     </div>
-                </div>
-            </div>
-        </div>
-
-
-        
-    );
+                    </div>
+                    </div>
+                    </div>
+                    
+                    
+                    
+                    );
+                    // <button className="button" onClick={props.onClise}>close</button>
 }
 
 

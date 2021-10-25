@@ -14,7 +14,7 @@
     width: 100px;
     border: solid var(--line) 1px;
     border-radius: 50%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .aw-span {

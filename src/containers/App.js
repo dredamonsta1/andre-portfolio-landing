@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {hot} from "react-hot-loader";
 import LandingPageCircle from "../components/LandingPageCircle/LandingPageCircle";
 import LandingPageContainer from "../components/LandigPageContainer/LandingPageContainer";
-import Modal from "../components/Modal/Modal";
+// import Modal from "../components/Modal/Modal";
 import LandingPageModal from "../components/LandingPageModal.js/LandingPageModal";
 import LandingPageFooter from "../components/LandingPageFooter/LandingPageFooter";
 import img from '../image/nyc.JPG';
@@ -22,9 +22,9 @@ function App() {
             <div className="small-container">
               <LandingPageCircle />
               <LandingPageContainer />
-              <LandingPageModal />
               <div className="contact-icons" alt="social media icons">
               
+              <LandingPageModal />
               <LandingPageFooter />
               </div>
             </div>

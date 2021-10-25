@@ -1,10 +1,75 @@
 .modal-buttons{
-    display: flex;
+    padding-left: 73px
+    ;    /* display: flex;
     text-transform: uppercase;
     align-self: center;
     justify-content: space-evenly;
     font-family: 'Nunito',
     sans-serif;
     font-weight: 200;
-    font-size: 12px;  
+    font-size: 12px;   */
 }
+
+.intro{
+    border: solid var(--line) 1px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 4px 0 0 4px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(220, 20, 60, 0);
+    cursor: pointer;
+}
+
+
+.work {
+    border-top: solid var(--line) 1px;
+    border-right: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
+    padding: 20px 39px 20px 38px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(220, 20, 60, 0);
+    cursor: pointer;
+}
+
+.about {
+    border-top: solid var(--line) 1px;
+    border-right: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
+    padding: 20px 27px 20px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(220, 20, 60, 0);
+    cursor: pointer;
+}
+
+.contact {
+    border-top: solid var(--line) 1px;
+    border-right: solid var(--line) 1px;
+    border-bottom: solid var(--line) 1px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 0 4px 4px 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(220, 20, 60, 0);
+    cursor: pointer;
+}
+
+
+
+ .intro:hover, .intro:focus {
+    background-color: var(--opaqe);
+}
+
+.work:hover, .work:focus {
+    background-color: var(--opaqe);
+}
+
+.about:hover, .about:focus {
+    background-color: var(--opaqe);
+}
+
+.contact:hover, .contact:focus {
+    background-color: var(--opaqe);
+   
+} 

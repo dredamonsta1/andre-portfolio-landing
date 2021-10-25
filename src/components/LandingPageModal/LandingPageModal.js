@@ -12,11 +12,11 @@ function LandingPageModal() {
             <button className="work">WORK</button>
             <button className="about">ABOUT</button>
             <button className="contact">CONTACT</button>
+            < Modal onClose={() => setShow(false)} show={show}/>
         </div>  
     );      
 }
     
-    // < Modal onClose={() => setShow(false)} show={show}/>
 
 
 
