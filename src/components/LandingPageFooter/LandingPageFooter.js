@@ -5,7 +5,7 @@ import React from 'react';
 
 function LandingPageFooter() {
 
-    let urll="https://www.linkedin.com/in/andre-wilkinson/";
+    let url="https://www.linkedin.com/in/andre-wilkinson/";
     let urlw="https://www.ninebyfour.tech/";
     let urlg="https://github.com/dredamonsta1";
     let urlt="https://twitter.com/dredamonsta1";
@@ -17,11 +17,6 @@ function LandingPageFooter() {
     return (
         <div className="contact-icons">
         
-        <h6 className="element-link">{element}</h6>
-        <h6 className="element-link">{elementWeb}</h6>
-        <h6 className="element-link">{elementLink}</h6>
-        <h6 className="element-link">{elementTwit}</h6>
-        
         <a href="https://www.linkedin.com/in/andre-wilkinson/"><i className="fa fa-linkedin"></i>linkedin</a>
         <a href="https://www.youtube.com/watch?v=6Us5s49NBwY">youtube</a>
         <a href="https://www.ninebyfour.tech/"><i className="fa fa-laptop">Website</i></a>
@@ -29,7 +24,7 @@ function LandingPageFooter() {
         <a href="https://twitter.com/dredamonsta1"><i className="fa fa-twitter"></i>twitter</a>
         
         </div>
-        ); 
+    ); 
 
 } 
 
