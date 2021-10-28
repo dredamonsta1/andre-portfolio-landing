@@ -7,11 +7,11 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 function LandingPageFooter() {
 
     
-    const element = <FontAwesomeIcon icon={faCoffee} size="3x"/>
-    const dreTweet = <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" spin/>
-    const dreGit = <FontAwesomeIcon icon={['fab', 'github']} size="3x"/>
-    const dreYoutube = <FontAwesomeIcon icon={['fab', 'youtube']} size="3x"/>
-    const dreLinkedin = <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" spin/>
+    const element = <FontAwesomeIcon icon={faCoffee} size="3x" flip="horizontal" color="tan"/>
+    const dreTweet = <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" spin color="blue"/>
+    const dreGit = <FontAwesomeIcon icon={['fab', 'github']} size="3x" spin color="yellow"/>
+    const dreYoutube = <FontAwesomeIcon icon={['fab', 'youtube']} size="3x" color="red"/>
+    const dreLinkedin = <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" spin color="blue"/>
 
 
     return (
