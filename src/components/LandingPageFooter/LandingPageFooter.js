@@ -8,10 +8,10 @@ function LandingPageFooter() {
 
     
     const element = <FontAwesomeIcon icon={faCoffee} size="3x"/>
-    const dreTweet = <FontAwesomeIcon icon={['fab', 'twitter']} size="3x"/>
+    const dreTweet = <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" spin/>
     const dreGit = <FontAwesomeIcon icon={['fab', 'github']} size="3x"/>
     const dreYoutube = <FontAwesomeIcon icon={['fab', 'youtube']} size="3x"/>
-    const dreLinkedin = <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/>
+    const dreLinkedin = <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" spin/>
 
 
     return (
