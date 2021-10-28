@@ -16,6 +16,7 @@ function LandingPageFooter() {
 
     return (
         <div className="contact-icons">
+            
             <a href="https://www.linkedin.com/in/andre-wilkinson/">{dreLinkedin}</a>
             <a href="https://www.youtube.com/watch?v=6Us5s49NBwY">{dreYoutube}</a>
             <a href="https://www.ninebyfour.tech/">{element}</a>
