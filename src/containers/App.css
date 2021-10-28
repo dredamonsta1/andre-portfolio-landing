@@ -371,6 +371,9 @@ ul.horizontal-list li {
 }
 
 .contact-icons {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
     padding-top: 25px;
     font-family: 'Nunito',
     sans-serif;

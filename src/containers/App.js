@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import {hot} from "react-hot-loader";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import LandingPageCircle from "../components/LandingPageCircle/LandingPageCircle";
 import LandingPageContainer from "../components/LandigPageContainer/LandingPageContainer";
 import Modal from "../components/Modal/Modal";
@@ -8,6 +11,7 @@ import LandingPageFooter from "../components/LandingPageFooter/LandingPageFooter
 import img from '../image/nyc.JPG';
 import "./App.css";
 
+library.add(fab, faCheckSquare, faCoffee)
 // const [show, setShow] = useState(false);
 function App() {
     return(
