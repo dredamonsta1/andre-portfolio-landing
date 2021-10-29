@@ -5,6 +5,7 @@ import React, { Component } from "react";
 function Modal(props) {
     if (!props.show) {
         return null
+        console.log("hello modal")
     }
     return (
         

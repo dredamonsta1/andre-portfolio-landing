@@ -5,8 +5,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 
 function LandingPageFooter() {
-
-    
     const element = <FontAwesomeIcon icon={faCoffee} size="3x" flip="horizontal" color="tan"/>
     const dreTweet = <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" spin color="blue"/>
     const dreGit = <FontAwesomeIcon icon={['fab', 'github']} size="3x" spin color="yellow"/>
