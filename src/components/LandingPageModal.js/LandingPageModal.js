@@ -1,11 +1,12 @@
 import React from "react";
 
-// import Modal from "../Modal/Modal";
+import Modal from "../Modal/Modal";
 
 
 
 
-function LandingPageModal() {
+function LandingPageModal(props) {
+    // < Modal onClose={() => setShow(false)} show={show}/>
 
     const handleClick = (event) =>{
         event.preventDefault();
@@ -23,7 +24,6 @@ function LandingPageModal() {
     );      
 }
     
-    // < Modal onClose={() => setShow(false)} show={show}/>
 
 
 
