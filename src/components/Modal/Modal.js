@@ -7,6 +7,13 @@ function Modal(props) {
         return null
         console.log("hello modal")
     }
+
+    const handleClick = (event) =>{
+        event.preventDefault();
+        // event.listen.target
+        console.log("you pressed landinPageModal");
+    }
+
     return (
         
         <div className="list-work">
@@ -19,7 +26,7 @@ function Modal(props) {
                         This is Modal Contentssss
                     </div>
                     <div className="modal-footer">
-                        <button className="button" onClick={props.onClise}>close</button>
+                        <button className="button" onClick={handleClick}>close</button>
                     </div>
                 </div>
             </div>

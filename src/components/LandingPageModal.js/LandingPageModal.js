@@ -19,7 +19,7 @@ function LandingPageModal(props) {
             <button className="intro" onClick={handleClick}>INTRO</button>
             <button className="work" onClick={handleClick}>WORK</button>
             <button className="about" onClick={handleClick}>ABOUT</button>
-            <button className="contact" onClick={handleClick}>CONTACT</button>
+            <button className="contact" Modal={handleClick}>CONTACT</button>
         </div>  
     );      
 }
