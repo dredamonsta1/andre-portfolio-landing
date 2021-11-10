@@ -4,8 +4,9 @@ import Modal from "../Modal/Modal";
 
 
 function LandingPageModal(props) {
-    // const [modal, setModal] = useState(false);
+    const [modal, setModal] = useState(false);
     // < Modal onClose={() => setShow(false)} show={show}/>
+    const toggle = () => setModal(!modal);
 
     const handleClick = (event) =>{
         event.preventDefault();
@@ -15,8 +16,7 @@ function LandingPageModal(props) {
 
     return (
         <div className="modal-btn-container">
-        <button className="intro" onClick={handleClick}>INTRO</button>
-
+            <button className="intro" onClick={() => toggle()}>INTRO</button>
             <button className="work" onClick={handleClick}>WORK</button>
             <button className="about" onClick={handleClick}>ABOUT</button>
             <button className="contact" onClick={handleClick}>CONTACT</button>
