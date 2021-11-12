@@ -62,10 +62,33 @@ html, body {
  width: 600px;  
 }
 
+ul {
+  display: flex;
+}
 
+li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 0px;
+}
 
+.list-work {
+  display: flex;
+  text-transform: uppercase;
+  align-self: center;
+  justify-content: space-evenly;
+  font-family: 'Nunito',
+  sans-serif;
+  font-weight: 200;
+  font-size: 12px;  
+}
 
+ul.horizontal-list {
+  list-style: none;
+  padding-top: 0px;
+}
 
-
-
-
+ul.horizontal-list li {
+  display: inline;   
+}

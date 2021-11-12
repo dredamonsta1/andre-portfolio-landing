@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
+import styles from "./LandingPageFooter.module.css"
+
 
 
 function LandingPageFooter() {
@@ -13,7 +15,7 @@ function LandingPageFooter() {
 
 
     return (
-        <div className="contact-icons">
+        <div className={styles.contactIcons}>
             
             <a href="https://www.linkedin.com/in/andre-wilkinson/">{dreLinkedin}</a>
             <a href="https://www.youtube.com/watch?v=6Us5s49NBwY">{dreYoutube}</a>
@@ -25,8 +27,6 @@ function LandingPageFooter() {
     ); 
 
 } 
-
-
 export default LandingPageFooter;
 
 

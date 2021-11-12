@@ -15,18 +15,18 @@ function LandingPageModal(props) {
     }
 
     return (
-        <div className="modal-btn-container">
-            <button className="intro" onClick={() => toggle()}>INTRO</button>
-            <button className="work" onClick={handleClick}>WORK</button>
-            <button className="about" onClick={handleClick}>ABOUT</button>
-            <button className="contact" onClick={handleClick}>CONTACT</button>
+        <div className={styles.modalBtnContainer}>
+            <button className={styles.intro} onClick={() => toggle()}>INTRO</button>
+            <button className={styles.work} onClick={handleClick}>WORK</button>
+            <button className={styles.about} onClick={handleClick}>ABOUT</button>
+            <button className={styles.contact} onClick={handleClick}>CONTACT</button>
             </div>  
-            );      
-        }
+        );      
+    }
         // <Modal />
         
         
         
         
         
-        export default LandingPageModal;
+export default LandingPageModal;
