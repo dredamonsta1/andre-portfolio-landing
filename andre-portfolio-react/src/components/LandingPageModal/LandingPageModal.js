@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-
-import Modal from "../Modal/Modal";
+import styles from "./LandingPageModal.module.css"
+// import Modal from "../../../../src/components/Modal/Modal";
 
 
 function LandingPageModal(props) {

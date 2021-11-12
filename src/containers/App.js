@@ -4,13 +4,14 @@ import {hot} from "react-hot-loader";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-import LandingPageCircle from "../components/LandingPageCircle/LandingPageCircle";
-import LandingPageContainer from "../components/LandigPageContainer/LandingPageContainer";
+// import LandingPageCircle from "../../andre-portfolio-react/src/components/LandingPageCircle/LandingPageCircle";
+// import LandingPageContainer from "../../andre-portfolio-react/src/components/LandigPageContainer/LandingPageContainer";
 import Modal from "../components/Modal/Modal";
-import LandingPageModal from "../components/LandingPageModal.js/LandingPageModal";
-import LandingPageFooter from "../components/LandingPageFooter/LandingPageFooter";
+// import LandingPageModal from "../../andre-portfolio-react/src/components/LandingPageModal/LandingPageModal";
+// import LandingPageFooter from "../../andre-portfolio-react/src/components/LandingPageFooter/LandingPageFooter";
 import img from '../image/nyc.JPG';
 import "./App.css";
+import "../components/LandingPageCircle.module.css";
 
 
 library.add(fab, faCheckSquare, faCoffee)
@@ -26,8 +27,9 @@ function App() {
       height: '100%' }}>
       <div className="filter-shade">
       <div className="small-container">
-      <LandingPageCircle />
-      <LandingPageContainer />
+      
+      // <LandingPageCircle />
+      // <LandingPageContainer />
       <LandingPageModal />
       <div className="contact-icons" alt="social media icons">
       

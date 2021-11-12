@@ -2,33 +2,70 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
 
-
-.App {
-  text-align: center;
+:root {
+  --background: black;
+  --line: white;
+  --opaqe: rgb(112, 108, 108, .3);
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, p, a {
+  color: white;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  /* filter: blur(8px); */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.app-background {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0,0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-shade {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0,0, 0.7);
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.small-container {
+  /* filter: blur(8px); */
+ display: flex;
+ flex-direction: column;
+ padding: 2rem 1rem;
+ width: 600px;  
 }
 
 
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+

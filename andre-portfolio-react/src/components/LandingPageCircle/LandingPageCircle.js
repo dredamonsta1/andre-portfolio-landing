@@ -1,13 +1,13 @@
-import React, { Component }from "react";
-import styles from './LandingPageCircle.module.css';
+import React from "react";
+import styles from "./LandingPageCircle.module.css";
 
 
 
 function LandingPageCircle(props) {
-    const Andre = "aw";
+    // const Andre = "aw";
     return (
-        <div className="circle">
-            <span className="aw-span"><h1>aw{props.Andre}</h1> </span> 
+        <div className={styles.circle}>
+            <div className={styles.awSpan}><h1>aw</h1> </div> 
         </div>
     );
 

@@ -7,13 +7,13 @@ import styles from "./LandingPageContainer.module.css";
 function LandingPageContainer() {
     return (
         <div>
-            <div className="line-under-circle" />
-            <div className="downline-top" />
-            <div className="inner-paragraph">
+            <div className={styles.lineUnderCircle} />
+            <div className={styles.downlineTop} />
+            <div className={styles.innerParagraph}>
                 <h1>Andre Wilkinson</h1>
                 <p>Fullstack trained frontend dev just enjoing learning everyday, embracing the chaos</p>
             </div>
-            <div className="downline-bottom" />
+            <div className={styles.downlineBottom} />
         </div>
         );
 }
