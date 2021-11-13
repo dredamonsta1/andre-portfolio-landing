@@ -21,9 +21,9 @@ function LandingPageModal(props) {
             <button className={styles.about} onClick={handleClick}>ABOUT</button>
             <button className={styles.contact} onClick={handleClick}>CONTACT</button>
             <Modal />
-            </div>  
-            );      
-    }
+        </div>  
+    );      
+}
         
         
         

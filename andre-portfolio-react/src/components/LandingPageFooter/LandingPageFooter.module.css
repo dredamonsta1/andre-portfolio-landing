@@ -16,3 +16,20 @@
     text-transform: uppercase;
     
 }
+
+.intro:hover, .intro:focus {
+    background-color: var(--opaqe);
+}
+
+.work:hover, .work:focus {
+    background-color: var(--opaqe);
+}
+
+.about:hover, .about:focus {
+    background-color: var(--opaqe);
+}
+
+.contact:hover, .contact:focus {
+    background-color: var(--opaqe);
+   
+}

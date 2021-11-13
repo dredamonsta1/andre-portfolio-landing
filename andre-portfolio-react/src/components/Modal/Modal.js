@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Modal.module.css";
 
 
 
@@ -16,8 +17,8 @@ function Modal(props) {
     // }
 
     return (
-        <div className="list-work">
-            <div className="modal">
+        <div className={styles.listWork}>
+            <div className={styles.modal}>
                 <div className="modal-content">
                     <div className="modal-header">
                         <h4 className="modal-title">Enter</h4>
@@ -29,9 +30,9 @@ function Modal(props) {
                     </div>
                 </div>
             </div>
-            <button className="button" onClick={() => toggle()}>close</button>
+            <button className="button" onClick={() => toggle()}>close me on modal</button>
             {
-                modal ? <div className="modal">
+                modal ? <div className={styles.modal}>
                 This is the modal
                 </div> : null
             }
