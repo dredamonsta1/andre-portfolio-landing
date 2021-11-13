@@ -1,20 +1,19 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faPlay, faCrow, faPastafarianism, faLink } from '@fortawesome/free-solid-svg-icons'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-import styles from "./LandingPageFooter.module.css"
+import { faTwitter, faYoutube, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+import styles from "./LandingPageFooter.module.css";
 
 
 
 function LandingPageFooter() {
     const element = <FontAwesomeIcon icon={faCoffee} size="3x" flip="horizontal" color="tan"/>
-    const dreTweet = <FontAwesomeIcon icon={faCrow} size="3x" spin color="blue"/>
-    const dreGit = <FontAwesomeIcon icon={faPastafarianism} size="3x" spin color="yellow"/>
-    const dreYoutube = <FontAwesomeIcon icon={faPlay} size="3x" color="red"/>
-    const dreLinkedin = <FontAwesomeIcon icon={faLink} size="3x" spin color="gray"/>
+    const dreTweet = <FontAwesomeIcon icon={faTwitter} size="3x" spin color="lightblue"/>
+    const dreGit = <FontAwesomeIcon icon={faGithub} size="3x" spin color="yellow"/>
+    const dreYoutube = <FontAwesomeIcon icon={faYoutube} size="3x" color="red"/>
+    const dreLinkedin = <FontAwesomeIcon icon={faLinkedin} size="3x" spin color="gray"/>
 
 
     return (

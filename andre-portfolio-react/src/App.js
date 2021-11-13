@@ -1,7 +1,7 @@
 import img from '../src/image/nyc.JPG';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import LandingPageCircle from './components/LandingPageCircle/LandingPageCircle';
 import LandingPageContainer from './components/LandigPageContainer/LandingPageContainer';
 import LandingPageModal from './components/LandingPageModal/LandingPageModal';
@@ -28,11 +28,6 @@ function App() {
           
           <LandingPageFooter />
           </div>
-      
-        
-        
-        
-        
         </div>
       </div>
     </div>

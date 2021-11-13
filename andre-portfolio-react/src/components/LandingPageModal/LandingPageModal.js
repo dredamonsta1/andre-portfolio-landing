@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./LandingPageModal.module.css"
-// import Modal from "../../../../src/components/Modal/Modal";
+import Modal from "../Modal/Modal";
 
 
 function LandingPageModal(props) {
@@ -20,10 +20,10 @@ function LandingPageModal(props) {
             <button className={styles.work} onClick={handleClick}>WORK</button>
             <button className={styles.about} onClick={handleClick}>ABOUT</button>
             <button className={styles.contact} onClick={handleClick}>CONTACT</button>
+            <Modal />
             </div>  
-        );      
+            );      
     }
-        // <Modal />
         
         
         
