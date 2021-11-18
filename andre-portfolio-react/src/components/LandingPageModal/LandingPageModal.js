@@ -17,8 +17,8 @@ function LandingPageModal(props) {
     return (
         <div className={styles.modalBtnContainer}>
 
+        
         <button className={styles.intro} onClick={() => toggle()}>INTRO</button>
-
         <button className={styles.work} onClick={handleClick}>WORK</button>
         <button className={styles.about} onClick={handleClick}>ABOUT</button>
         <button className={styles.contact} onClick={handleClick}>CONTACT</button>

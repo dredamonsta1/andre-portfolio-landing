@@ -9,14 +9,17 @@ const Modal = ({
     return <> {show ? 
         <div className={styles.listWork}>
             <div className={styles.modal}>
-                <div className="modal-content">
+                <div className={styles.intro}>
                     <div className="modal-header">
-                        <h4 className="modal-title">Enter</h4>
+                        <h1 className="modal-title">INTRO</h1>
                     </div>
                     <div className="modal-body">
                         <h1>This is Modal Content</h1>
                     </div>
                     <div className="modal-footer">
+                        <button className="modal-close">Close</button>
+                        <button className="submit">submit</button>
+
                     </div>
                 </div>
             </div>
