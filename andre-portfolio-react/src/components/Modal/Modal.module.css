@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
 
 
+/* h1 {
+    background-color: white;
+} */
 
-
-.listWork {
+.modal {
     display: flex;
     text-transform: uppercase;
     align-self: center;
@@ -25,7 +27,7 @@
 
 }
 
-.modal {
+/* .modal {
     display: flex;
     position: relative;
     background-color: #fefefe;
@@ -40,8 +42,10 @@
     margin: auto;
     border: 1px solid #888;
     width: 80%;
-    opacity: 0;
-}
+    opacity: 0; */
+    /* background-color: black;
+    z-index: 100; */
+/* } */
 
 .intro {
     border: solid var(--line) 1px;

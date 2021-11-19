@@ -7,14 +7,14 @@ const Modal = ({
     show
 }) => {
     return <> {show ? 
-        <div className={styles.listWork}>
+        // <div className={styles.listWork}>
             <div className={styles.modal}>
                 <div className={styles.intro}>
                     <div className="modal-header">
                         <h1 className="modal-title">INTRO</h1>
                     </div>
                     <div className="modal-body">
-                        <h1>This is Modal Content</h1>
+                        <h3>This is Modal Content</h3>
                     </div>
                     <div className="modal-footer">
                         <button className="modal-close">Close</button>
@@ -23,7 +23,7 @@ const Modal = ({
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
         
         : null}</>;
         
