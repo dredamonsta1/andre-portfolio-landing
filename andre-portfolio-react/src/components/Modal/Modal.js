@@ -7,7 +7,7 @@ const Modal = ({
     show
 }) => {
     return <> {show ? 
-        // <div className={styles.listWork}>
+        <div className={styles.listWork}>
             <div className={styles.modal}>
                 <div className={styles.intro}>
                     <div className="modal-header">
@@ -23,7 +23,7 @@ const Modal = ({
                     </div>
                 </div>
             </div>
-        // </div>
+        </div>
         
         : null}</>;
         

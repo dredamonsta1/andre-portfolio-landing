@@ -8,20 +8,19 @@ function LandingPageModal(props) {
    
     const toggle = () => setModal(!modal);
 
-    const handleClick = (event) =>{
-        event.preventDefault();
-        // event.listen.target
-        console.log("you pressed landinPageModal");
-    }
+    // const handleClick = (event) =>{
+    //     event.preventDefault();
+    //     console.log("you pressed landinPageModal");
+    // }
 
     return (
         <div className={styles.modalBtnContainer}>
 
         
         <button className={styles.intro} onClick={() => toggle()}>INTRO</button>
-        <button className={styles.work} onClick={handleClick}>WORK</button>
-        <button className={styles.about} onClick={handleClick}>ABOUT</button>
-        <button className={styles.contact} onClick={handleClick}>CONTACT</button>
+        <button className={styles.work} onClick={() => toggle()}>WORK</button>
+        <button className={styles.about} onClick={() => toggle()}>ABOUT</button>
+        <button className={styles.contact} onClick={() => toggle()}>CONTACT</button>
 
         <Modal show={modal} />
         </div>  

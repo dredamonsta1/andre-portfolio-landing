@@ -7,7 +7,7 @@
     background-color: white;
 } */
 
-.modal {
+.listWork {
     display: flex;
     text-transform: uppercase;
     align-self: center;
@@ -25,30 +25,30 @@
     right: 100px;
     background-color: black;
 
+    
+    /* .modal {
+        display: flex;
+        position: relative;
+        background-color: #fefefe;
+        width: 10%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+        margin: auto;
+        border: 1px solid #888;
+        width: 80%;
+        opacity: 0; */
+        /* background-color: black;
+        z-index: 100; */
+    /* } */
 }
 
-/* .modal {
-    display: flex;
-    position: relative;
-    background-color: #fefefe;
-    width: 10%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-
-    margin: auto;
-    border: 1px solid #888;
-    width: 80%;
-    opacity: 0; */
-    /* background-color: black;
-    z-index: 100; */
-/* } */
-
 .intro {
-    border: solid var(--line) 1px;
+    /* border: solid var(--line) 1px; */
     padding: 20px 25px 20px 25px;
     border-radius: 4px 0 0 4px;
     text-decoration: none;
