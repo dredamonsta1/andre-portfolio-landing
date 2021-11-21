@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
 
 
-/* h1 {
-    background-color: white;
-} */
 
 .listWork {
     display: flex;
@@ -26,26 +23,25 @@
     background-color: black;
 
     
-    /* .modal {
-        display: flex;
-        position: relative;
-        background-color: #fefefe;
-        width: 10%;
-        height: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        
-        
-        margin: auto;
-        border: 1px solid #888;
-        width: 80%;
-        opacity: 0; */
-        /* background-color: black;
-        z-index: 100; */
-    /* } */
 }
+/* .modal { 
+display: flex;
+position: relative;
+background-color: #fefefe;
+width: 10%;
+height: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+margin: auto;
+border: 1px solid #888;
+width: 80%;
+opacity: 0;  */
+/* background-color: black;
+z-index: 100; */
+/* } */
 
 .intro {
     /* border: solid var(--line) 1px; */
@@ -57,11 +53,11 @@
     cursor: pointer;
 }
 
-/* .modalBg {
+.modalBg {
     display: flex;
-    justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    /* position: fixed;
+    position: fixed;
     z-index: 1;
     padding-top: 100px;
     margin-top: 20px;
@@ -77,5 +73,36 @@
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
     border-radius: 5px;
-} */
+}
 
+.modalHeader {
+    position: relative;
+    border-bottom: 1px solid white;
+
+}
+
+.modalTitle {
+
+
+}
+
+.close {
+
+}
+
+.modalContent {
+
+}
+
+.modalFooter {
+
+
+}
+
+.modalClose {
+
+}
+
+.submit {
+
+}

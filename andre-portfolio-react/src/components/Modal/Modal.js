@@ -10,17 +10,16 @@ const Modal = ({
         <div className={styles.listWork}>
             <div className={styles.modal}>
                 <div className={styles.intro}>
-                    <div className="modal-header">
-                        <h1 className="modal-title">INTRO</h1>
-                    </div>
-                    <div className="modal-body">
-                        <h3>This is Modal Content</h3>
-                    </div>
-                    <div className="modal-footer">
-                        <button className="modal-close">Close</button>
-                        <button className="submit">submit</button>
+                    <header className={styles.modalHeader}>
+                        <h2 className={styles.modalTitle}>INTRO</h2>
+                        <button claseName={styles.close}>Close</button>
+                    </header>
+                    <main className={styles.modalContent}>This is Modal Content</main>
+                    <footer className={styles.modalFooter}>
+                        <button className={styles.modalClose}>Close</button>
+                        <button className={styles.submit}>submit</button>
 
-                    </div>
+                    </footer>
                 </div>
             </div>
         </div>

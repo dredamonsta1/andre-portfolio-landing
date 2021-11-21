@@ -1,7 +1,4 @@
 import img from '../src/image/nyc.JPG';
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import LandingPageCircle from './components/LandingPageCircle/LandingPageCircle';
 import LandingPageContainer from './components/LandigPageContainer/LandingPageContainer';
 import LandingPageModal from './components/LandingPageModal/LandingPageModal';
@@ -16,8 +13,7 @@ function App() {
       style={{
       backgroundImage: `url(${img})`,
       backgroundRepeat: "no-repeat",
-      width: '100%',
-      height: '100%'
+      backgroundSize: "100%",
       }}>
       <div className="filter-shade">
         <div className="small-container">
