@@ -16,14 +16,18 @@
     font-weight: 200;
     font-size: 12px;  
     border-radius: 25px;
-    
+
     position: fixed;
     top: 20px;
-    bottom: 200px;
+    bottom: 100px;
     left: 100px;
     right: 100px;
     background-color: black;
+    transform: translateY(-1px);
+    transition: all 0.5s ease;
 }
+
+
  /* .modal {
      display: flex;
      justify-content: center;
@@ -47,6 +51,7 @@
     color: white;
     background-color: rgba(220, 20, 60, 0);
     /* cursor: pointer; */
+    transition: all 0.5s ease;
 }
 
 /* .modalBg {
@@ -86,12 +91,12 @@
 
 
 }
-/* button {
+button {
     background: transparent;
   box-shadow: 0px 0px 0px transparent;
   border: 0px solid transparent;
   text-shadow: 0px 0px 0px transparent;
-} */
+}
 
 .topClose {
     display: flex;

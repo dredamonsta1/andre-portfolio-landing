@@ -1,9 +1,12 @@
 import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import styles from "./Modal.module.css";
 
 
 
 const Modal = ({show, close, title, children}) => {
+    const closeBtn = <FontAwesomeIcon icon={faTimesCircle} size="small" color="white"/>
     return ReactDOM.createPortal(
         <> {show ? 
             <div className={styles.listWork} onClick={() => close()}>
@@ -11,7 +14,7 @@ const Modal = ({show, close, title, children}) => {
                     <div className={styles.intro}>
                     <header className={styles.modalHeader}>
                     <h2 className={styles.modalTitle}>{title}</h2>
-                    <button claseName={styles.topClose} onClick={() => close()}>X</button>
+                    <button claseName={styles.topClose} onClick={() => close()}>{closeBtn}</button>
                         </header>
                         <main className={styles.modalContent}>{children}</main>
                         <footer className={styles.modalFooter}>
