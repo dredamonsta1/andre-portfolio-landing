@@ -22,7 +22,10 @@ function LandingPageModal(props) {
         <button className={styles.about} onClick={() => toggle()}>ABOUT</button>
         <button className={styles.contact} onClick={() => toggle()}>CONTACT</button>
 
-        <Modal show={modal} />
+        <Modal show={modal} close={toggle} title="props">
+
+        This is the enter modal lets seeee
+        </Modal>
         </div>  
         );      
     }
