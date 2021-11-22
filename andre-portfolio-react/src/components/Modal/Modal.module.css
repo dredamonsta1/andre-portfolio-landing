@@ -98,13 +98,15 @@ button {
   text-shadow: 0px 0px 0px transparent;
 }
 
-.topClose {
+.topClose:hover {
     display: flex;
     justify-self: self-end;
     color: thistle;
-    left: 500px;
+    /* left: 500px; */
 
 }
+
+/* .topClose:hover */
 
 .modalContent {
     text-align: center;
