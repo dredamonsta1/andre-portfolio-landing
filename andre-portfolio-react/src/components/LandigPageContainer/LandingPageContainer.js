@@ -11,7 +11,7 @@ function LandingPageContainer() {
             <div className={styles.downlineTop} />
             <div className={styles.innerParagraph}>
                 <h1>Andre Wilkinson</h1>
-                <p>Fullstack trained frontend dev just enjoing learning everyday, embracing the chaos</p>
+                <p>Fullstack trained frontend dev just enjoing learning everyday, embracing the chaos.</p>
             </div>
             <div className={styles.downlineBottom} />
         </div>

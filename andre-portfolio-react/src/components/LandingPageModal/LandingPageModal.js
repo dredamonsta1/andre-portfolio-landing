@@ -30,13 +30,6 @@ function LandingPageModal(props) {
         );      
     }
     
-    
-    // {
-    //     modal ? <div className="modal">
-    //     This is  intro modal   
-    //     </div> : null
-    // }
-        
         
         
 export default LandingPageModal;

@@ -20,7 +20,7 @@ const Modal = ({show, close, title, children}) => {
                         <footer className={styles.modalFooter}>
                             <button className={styles.modalClose} onClick={() => close()}>Close</button>
                             <button className={styles.submit}>submit</button>
-    
+
                         </footer>
                     </div>
                 </div>
