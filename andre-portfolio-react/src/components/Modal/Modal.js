@@ -6,7 +6,7 @@ import styles from "./Modal.module.css";
 
 
 const Modal = ({show, close, title, children}) => {
-    const closeBtn = <FontAwesomeIcon icon={faTimesCircle} size="small" color="white"/>
+    const closeBtn = <FontAwesomeIcon icon={faTimesCircle} size="lg" color="white"/>
     return ReactDOM.createPortal(
         <> {show ? 
             <div className={styles.listWork} onClick={() => close()}>
