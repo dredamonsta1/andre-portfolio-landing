@@ -8,11 +8,10 @@ const ModalWork = () => {
     const toggle = () => setModal(!modal);
     return (
         <>
-        <button className={styles.work} onClick={() => toggle()}>WORK</button>
-        <Modal show={modal} close={toggle} title="WORK">
-
-        This is the Work modal
-        </Modal>
+            <button className={styles.work} onClick={() => toggle()}>WORK</button>
+            <Modal show={modal} close={toggle} title="WORK">
+                This is the Work modal
+            </Modal>
         </>
     )   
 }

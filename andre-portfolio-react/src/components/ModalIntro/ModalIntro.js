@@ -8,12 +8,10 @@ const ModalIntro = ()  => {
     const toggle = () => setModal(!modal);
     return (
         <>
-        <button className={styles.intro} onClick={() => toggle()}>INTRO</button>
-        <Modal show={modal} close={toggle} title="INTRO">
-
-        This is the intro modal more to come
-        </Modal>
-        
+            <button className={styles.intro} onClick={() => toggle()}>INTRO</button>
+            <Modal show={modal} close={toggle} title="INTRO">
+                This is the intro modal more to come
+            </Modal>
         </>
     )
 }
