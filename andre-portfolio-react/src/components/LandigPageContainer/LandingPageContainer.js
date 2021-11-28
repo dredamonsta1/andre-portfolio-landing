@@ -15,7 +15,7 @@ function LandingPageContainer() {
             </div>
             <div className={styles.downlineBottom} />
         </div>
-        );
+    );
 }
 
 export default LandingPageContainer;

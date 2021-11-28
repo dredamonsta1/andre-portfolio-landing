@@ -14,7 +14,7 @@ const Modal = ({show, close, title, children}) => {
                     <div className={styles.intro}>
                     <header className={styles.modalHeader}>
                     <h2 className={styles.modalTitle}>{title}</h2>
-                    <button claseName={styles.topClose} onClick={() => close()}>{closeBtn}</button>
+                    <button aria-label="close modal" claseName={styles.topClose} onClick={() => close()}>{closeBtn}</button>
                         </header>
                         <main className={styles.modalContent}>{children}</main>
                         <footer className={styles.modalFooter}>
