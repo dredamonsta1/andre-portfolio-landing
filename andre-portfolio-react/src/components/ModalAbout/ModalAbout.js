@@ -16,6 +16,4 @@ const ModalAbout = () => {
 
     )
 }
-
-
 export default ModalAbout;
